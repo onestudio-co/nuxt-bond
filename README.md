@@ -5,6 +5,7 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 
 ## To Do
 - [ ] Tailwind CSS v3 (https://nuxt.com/modules/tailwindcss)
+- [ ] Nuxt-Auth (https://nuxt.com/modules/nuxt-auth)
 
 ## Setup
 
