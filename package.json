@@ -1,4 +1,5 @@
 {
+  "name": "bond",
   "private": true,
   "scripts": {
     "build": "nuxt build",
