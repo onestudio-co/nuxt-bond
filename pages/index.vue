@@ -5,6 +5,11 @@
   </div>
 </template>
 
+<script setup>
+  import {useRuntimeConfig} from "nuxt/app";
+
+  const  runtimeConfig = useRuntimeConfig();
+</script>
 <style>
 .bond {
   display: flex;
