@@ -10,4 +10,13 @@ export default defineNuxtConfig({
             baseURL: process.env.BASE_URL,
         },
     },
+    app: {
+        head: {
+            charset: 'utf-8',
+            viewport: 'width=device-width, initial-scale=1',
+            link: [
+                {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
+            ]
+        }
+    }
 })
