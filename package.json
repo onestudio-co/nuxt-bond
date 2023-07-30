@@ -15,6 +15,7 @@
     "nuxt": "^3.2.2"
   },
   "dependencies": {
-    "@nuxt/typescript-runtime": "^3.0.1"
+    "@nuxt/typescript-runtime": "^3.0.1",
+    "sass": "^1.63.6"
   }
 }
