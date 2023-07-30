@@ -4,7 +4,7 @@ module.exports = {
       name: 'NUXT BOND',
       port: '3001',
       exec_mode: 'cluster',
-      instances: 'max',
+      instances: 'min',
       script: './.output/server/index.mjs',
       env_production: {
         NODE_ENV: 'production'
