@@ -310,15 +310,15 @@
   resolved "https://registry.npmjs.org/@csstools/selector-specificity/-/selector-specificity-2.2.0.tgz"
   integrity sha512-+OJ9konv95ClSTOJCmMZqpd5+YGsB2S+x6w3E1oaM8UuR5j8nTNHYSz8c9BEPGDOCMQYIEEGlVPj/VY64iTbGw==
 
-"@esbuild/win32-x64@0.16.17":
+"@esbuild/darwin-x64@0.16.17":
   version "0.16.17"
-  resolved "https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.16.17.tgz"
-  integrity sha512-y+EHuSchhL7FjHgvQL/0fnnFmO4T1bhvWANX6gcnqTjtnKWbTvUMCpGnv2+t+31d7RzyEAYAd4u2fnIhHL6N/Q==
+  resolved "https://registry.npmjs.org/@esbuild/darwin-x64/-/darwin-x64-0.16.17.tgz"
+  integrity sha512-2By45OBHulkd9Svy5IOCZt376Aa2oOkiE9QWUK9fe6Tb+WDr8hXL3dpqi+DeLiMed8tVXspzsTAvd0jUl96wmg==
 
-"@esbuild/win32-x64@0.17.10":
+"@esbuild/darwin-x64@0.17.10":
   version "0.17.10"
-  resolved "https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.17.10.tgz"
-  integrity sha512-oP+zFUjYNaMNmjTwlFtWep85hvwUu19cZklB3QsBOcZSs6y7hmH4LNCJ7075bsqzYaNvZFXJlAVaQ2ApITDXtw==
+  resolved "https://registry.npmjs.org/@esbuild/darwin-x64/-/darwin-x64-0.17.10.tgz"
+  integrity sha512-J4MJzGchuCRG5n+B4EHpAMoJmBeAE1L3wGYDIN5oWNqX0tEr7VKOzw0ymSwpoeSpdCa030lagGUfnfhS7OvzrQ==
 
 "@ioredis/commands@^1.1.1":
   version "1.2.0"
@@ -2741,6 +2741,11 @@ fs.realpath@^1.0.0:
   resolved "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
   integrity sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==
 
+fsevents@~2.3.2:
+  version "2.3.2"
+  resolved "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz"
+  integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
+
 function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz"
@@ -4858,10 +4863,10 @@ safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   resolved "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sass@*:
-  version "1.63.4"
-  resolved "https://registry.npmjs.org/sass/-/sass-1.63.4.tgz"
-  integrity sha512-Sx/+weUmK+oiIlI+9sdD0wZHsqpbgQg8wSwSnGBjwb5GwqFhYNwwnI+UWZtLjKvKyFlKkatRK235qQ3mokyPoQ==
+sass@*, sass@^1.63.6:
+  version "1.63.6"
+  resolved "https://registry.npmjs.org/sass/-/sass-1.63.6.tgz"
+  integrity sha512-MJuxGMHzaOW7ipp+1KdELtqKbfAWbH7OLIdoSMnVe3EXPMTmxTmlaZDCTsgIpPCs3w99lLo9/zDKkOrJuT5byw==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"

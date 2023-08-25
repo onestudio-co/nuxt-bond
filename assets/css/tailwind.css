@@ -1,9 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+:root {
+   --color-primary: #332D2B;
+   --color-secondary: #ED6B52;
+}
 body {
    height: 100%;
    margin: 0;
    background-color: #F5F3EC;
+   padding: 0;
+   font-family: Arial, sans-serif;
+   line-height: 1.5;
+}
+.color-primary {
+   color: var(--color-primary);
+}
+
+.color-secondary {
+   color: var(--color-secondary);
+}
+
+.bg-primary {
+   background: var(--color-secondary);
 }
